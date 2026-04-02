@@ -1,0 +1,15 @@
+-e .
+click
+Sphinx
+coverage
+flake8
+pandas
+numpy 
+pathlib 
+scikit-learn
+imbalanced-learn
+joblib
+uvicorn
+wandb==0.16.6
+fastapi 
+pydantic 

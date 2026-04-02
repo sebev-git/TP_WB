@@ -1,0 +1,12 @@
+method: random  # ou grid, bayes
+metric:
+  name: test_accuracy
+  goal: maximize
+
+parameters:
+  criterion:
+    values: ['gini', 'entropy']
+  max_depth:
+    values: [5, 10, 20]
+  random_state:
+    value: 42
